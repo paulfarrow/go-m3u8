@@ -23,7 +23,7 @@ type Playlist struct {
 	ServerControl         *string
 	PartInf               *string
 	Skip                  *int
-	RenditionReports      []RenditionReports
+	RenditionReports      []RenditionReport
 }
 
 func (pl *Playlist) String() string {

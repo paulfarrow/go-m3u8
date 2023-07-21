@@ -2,12 +2,12 @@ package m3u8
 
 import "fmt"
 
-type RenditonReport struct{}
+type RenditionReport struct{}
 
-func NewRenditionReport() (*RenditonReport, error) {
-	return &RenditonReport{}, nil
+func NewRenditionReport() (*RenditionReport, error) {
+	return &RenditionReport{}, nil
 }
 
-func (re *RenditonReport) String() string {
+func (re *RenditionReport) String() string {
 	return fmt.Sprintf("%s\n", RenditionReportTag)
 }
