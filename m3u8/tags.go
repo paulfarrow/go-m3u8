@@ -16,6 +16,10 @@ const (
 	MediaItemTag         = `#EXT-X-MEDIA`
 	PlaylistItemTag      = `#EXT-X-STREAM-INF`
 	PlaylistIframeTag    = `#EXT-X-I-FRAME-STREAM-INF`
+	PartItemTag          = `#EXT-X-PART`
+	PreloadHintItemTag   = `#EXT-X-PRELOAD-HINT`
+	RendtionReportTag    = `#EXT-X-RENDITION-REPORT`
+	SkipTag              = `#EXT-X-SKIP`
 
 	// Playlist tags
 
@@ -29,6 +33,8 @@ const (
 	IFramesOnlyTag           = `#EXT-X-I-FRAMES-ONLY`
 	MediaSequenceTag         = `#EXT-X-MEDIA-SEQUENCE`
 	VersionTag               = `#EXT-X-VERSION`
+	ServerControlTag         = `#EXT-X-SERVER-CONTROL`
+	PartInfTag               = `#EXT-X-PART-INF`
 
 	// ByteRange tags
 
