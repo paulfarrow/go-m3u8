@@ -18,7 +18,7 @@ const (
 	PlaylistIframeTag    = `#EXT-X-I-FRAME-STREAM-INF`
 	PartItemTag          = `#EXT-X-PART`
 	PreloadHintItemTag   = `#EXT-X-PRELOAD-HINT`
-	RendtionReportTag    = `#EXT-X-RENDITION-REPORT`
+	RenditionReportTag   = `#EXT-X-RENDITION-REPORT`
 	SkipTag              = `#EXT-X-SKIP`
 
 	// Playlist tags

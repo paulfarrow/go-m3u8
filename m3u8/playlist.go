@@ -20,6 +20,10 @@ type Playlist struct {
 	IndependentSegments   bool
 	Live                  bool
 	Master                *bool
+	ServerControl         *string
+	PartInf               *string
+	Skip                  *int
+	RenditionReports      []RenditionReports
 }
 
 func (pl *Playlist) String() string {
